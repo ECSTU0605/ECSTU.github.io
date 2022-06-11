@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECSTUDIO</title>
+    <style type="text/css">
+        @import url("https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100;400;900&display=swap");
+        @import url();
+        *{
+            margin:0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Lexend Zetta', sans-serif;
+        }
+        body{background-image:url(/image/SCANLINE\ by\ freeject.net\ 17.JPG)}
+		.main-header{
+            background-color: #000;
+            
+        }
+        .main-header .container{
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .main-header .logo{
+            width: 200px;
+            ;
+        }
+       .main-header .logo img{
+        width: 50%;
+        vertical-align:middle;
+       }
+        .main-header .main-nav{
+            margin: auto;
+            display: flex;
+        }
+        .main-header .main-nav a{
+            text-decoration: none;
+            color: #fff;
+            padding: 5px 1em ;
+            position: relative;
+            transition: translateY(0px);
+            transition: .3s;
+        }
+        .main-header .main-nav a:hover{
+            transform: translateY(-10px);
+            color: rgb(51, 255, 105);
+        }
+        .main-header .main-nav a:after{
+            content: '';
+            paint-order:absolute;
+            left: 50%;
+            right: 50%;
+            bottom: -5px;
+            height: 0;
+            border-bottom: 1px solid rgb(0, 255, 21);
+            transition: .3s;
+        }
+        .main-header .main-nav a:hover:after{
+            left: 1em;
+            right: 1em;
+        }
+        .main-header .header-search{
+            display: flex;
+        }
+        .main-header .header-search button,
+        .main-header .header-search input{
+            border: none;
+            background-color: #fff;
+            padding: 5px 10px;
+        }
+        .main-header .header-search button{
+            border-radius: 0 200px 200px 0;
+        }
+        .main-header .header-search input{
+            border-radius: 200px 0 0 200px;
+        }
+        .wrap{
+	margin: 100px 0;
+	font-family: 'Noto Sans', sans-serif;
+}
+.container{
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	position: relative;
+}
+.container h1{
+	width: 420px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	font-size: 55px;
+	padding-left: 15px;
+	color: rgb(0, 255, 187);
+	transform: rotate(90deg);
+	transform-origin: left top;
+	position: relative;
+	left: 400px;
+}
+.container .txt{
+	width: 800px;
+	flex-shrink: 0;
+	box-sizing: border-box;
+	column-count: 2;
+	column-gap: 30px;
+	padding: 15px 15px;
+	box-shadow: 0 0 30px rgb(0, 255, 153);
+    letter-spacing: 0.4em;
+	color: #fff;
+}
+.container .txt p{
+	margin-bottom: 1em;
+}
+.container .txt p:first-child:first-letter{
+	font-size: 60px;
+	float: left;
+	padding-right: 10px;}
+    body{
+	background-color: rgb(255, 255, 255);
+}
+.main-footer {
+	padding: 150px 0 0 0;
+	background-color: #000;
+}
+.main-footer .container{
+	display: flex;
+	width: 1200px;
+	margin: auto;
+}
+.footer-item{
+	width: 0;
+	flex-grow: 1;
+	margin: 0 20px;
+}
+.footer-item h4{
+	font-size: 24px;
+	color: #fff;
+	border-bottom: 1px dotted #fff;
+	margin-bottom: .5em;
+	padding-bottom: .5em;
+}
+.footer-item nav{
+	display: flex;
+	flex-direction: column;
+}
+.footer-item nav a{
+	color: #fff;
+	line-height: 1.4;
+	text-decoration: none;
+	padding: 5px 0;
+}
+.footer-item nav a:hover{
+	color: #fa0;
+}
+.footer-subs {
+	display: flex;
+	flex-direction: column;
+}
+.footer-subs form{
+	display: flex;
+	width: 100%;
+	margin: auto 0px;
+}
+.footer-subs input[type="text"],
+.footer-subs input[type="submit"]{
+	border:none;
+	padding: 5px 10px;
+}
+
+.footer-subs input[type="text"]{
+	width: 0;
+	flex-grow: 1;
+}
+.footer-subs input[type="submit"]{
+	color: #70f6df;
+	background-color: #000000; 
+}
+.conpyright{
+	width: 100%;
+	text-align: center;
+	margin: 150px 0 0 ;
+	padding: 10px 0px;
+	background-color: #303030;
+	color: #ffffff;
+}
+    </style>
+</head>
+<body>
+
+<header class="main-header">
+    <div class="container">
+        <a href="#" class="logo">
+            <img src="/image/Shapes preto - @manow (231).png"width="75"height="75" alt="ECSTUDIO | ECSTU">
+        </a>
+        <nav class="main-nav">
+            <a href="/DESIGN.html">DESIGN</a>|
+            <a href="/photo.html">PHOTO</a>|
+            <a href="/FILM.html">FILM</a>|
+            <a href="/SHOP.html">SHOP</a>|
+        </nav>
+        <form class="header-search">
+            <input type="search" name="" id="">
+            <button type="button"><img src="/image/Vector-Search.png"width="10"height="10"></button>
+        </form>
+           </div>
+</header>
+
+
+
+<div class="wrap">
+	<div class="container">
+		<h1>ABOUT ME</h1>
+		<div class="txt">
+			<p>我是張棓棋，來自台北市。由於家中是經營服裝設計業，從小接觸許多設計及藝術相關的知識。我善於與他人溝通且做事勤奮，對任何事有都具有責任感且講求自我的工作效率，也習慣在遇到錯誤時找到問題的核心，並找出排除或改善問題的方式。在這個時代的我們，優勢在於能更快在網路上汲取新知，將其廣泛應用於任何設計及影像作品，我是一個喜愛挑戰自我的人，跳脫自己的舒適圈，勇於面對自己不熟悉的環境及狀況，不斷向更高的目標前進。我的興趣是經營自己的社群軟體，主要拍攝商品、人物以及風景的照片及長短影片創作，捕捉生活周遭美好的時刻，同時也增加了自己影像後製及編寫文案之技巧。</p>
+			<p>大學就讀於國立虎尾科技大學多媒體設計系，在學中有學習過影片製作的課程，課程中可以從起初的分鏡腳本規劃到後期的後製特效動畫，建構與業界相似的模式，能於畢業後在未來可以更容易與業界銜接，也拍攝過許多不同主題的影片，其中一部有關親情的微電影「心飯氣燥」，也備受評審老師及同學的肯定。目前所熟悉剪輯軟體為premiere pro和final cut pro，會使用blender製作基礎建模以及平面設計之應用，使用photoshop、Lightroom後製修圖，利用procreate繪製分鏡及鏡位表，使用WORD製作拍攝順序表，場記表，撰寫腳本及劇情。
+            </p>
+			<p>我認為做好時間的安排及規劃，及能讓事情有條理及規劃的情況下完成。在大學期間，曾到全家便利商店擔任PT，主要負責櫃檯結帳、倉庫補貨以及清潔工作，發掘自己擅長與人互動及溝通來往，能確實準時完成店長及擔當所吩咐之事項。也參與攝影社，不僅學習到相機的基本構造、拍攝技巧，也學習如何帶領團隊舉辦戶外團拍，從事前場地安排、與模特兒接洽以及租借設備到最後的修圖，發掘自己在團體中具有領導力，完成團隊的共同目標，也領悟面對問題時，該如何解決的方法及態度，和處理事情的能力。在學中，也參與過校慶紀念T設計及規劃，從事前的畫稿設計到廠商接洽，以及最後的採購及發放，了解製作衣服的流程，也應用自己的專業能力於更多方面的發展。</p>
+			
+		</div>
+	</div>
+</div>
+
+<BR>
+    <BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="main-footer">
+	<div class="container">
+		<div class="footer-item">
+			<h4>xxxxxxxx</h4>
+			<nav>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+			</nav>
+		</div>
+		<div class="footer-item">
+			<h4>xxxxxxxx</h4>
+			<nav>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> Bxxxxxxx</a>
+			</nav>
+		</div>
+		<div class="footer-item">
+			<h4>xxxxxxxx</h4>
+			<nav>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxxx</a>
+				<a href="#"><i class="fa fa-angle-right"></i> xxxxxxxx</a>
+			</nav>
+		</div>
+		<div class="footer-item footer-subs">
+			<h4>xxxxxx</h4>
+			<form>
+				<input type="text" name="">
+				<input type="submit" value="訂閱">
+			</form>
+		</div>
+	</div>
+	<div class="conpyright">
+		COPYRIGHT &copy; 2022 41048147 ECSTU
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+</body>
+</html>
